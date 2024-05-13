@@ -1,0 +1,37 @@
+.films {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.film{
+  overflow: hidden;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0px 10px 0px;
+  width: 250px;
+  text-align: center;
+  background-color: #f1ca9f;
+  box-shadow: 0 0 10px 0 #f79a54;
+  border-radius: 10px;
+  h4{
+    align-items: flex-start;
+  }
+}
+
+.button-add{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  
+  align-items: flex-start;
+  background-color: #f5e6d5;
+  border: solid 1px #f79a54;
+  font-size: medium;
+}

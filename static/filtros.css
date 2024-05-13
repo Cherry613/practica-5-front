@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
+
+.filter {
+    border: 1px solid #f79a54; 
+    padding: 10px; 
+    margin: 5px;
+    border-radius: 7px;
+    
+    background-color: #fffef0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
